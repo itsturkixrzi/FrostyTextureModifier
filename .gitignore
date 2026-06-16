@@ -1,0 +1,48 @@
+# Binaries
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.class
+*.jar
+*.exe
+*.dll
+*.dylib
+*.so
+*.o
+
+# Visual Studio
+.vs/
+.vscode/
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+
+# NuGet
+packages/
+.nuget/
+*.nupkg
+*.snupkg
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temp files
+*.tmp
+*.temp
+*.log
