@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A1B2C3D4-E5F6-47G8-H9I0-J1K2L3M4N5O6}</ProjectGuid>
+    <ProjectGuid>{A1B2C3D4-E5F6-47A8-B9C0-D1E2F3G4H5I6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FrostyTextureModifier</RootNamespace>
@@ -31,15 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FrostyControls">
-      <HintPath>..\..\FrostyEditor\FrostyControls.dll</HintPath>
-    </Reference>
-    <Reference Include="FrostyCore">
-      <HintPath>..\..\FrostyEditor\FrostyCore.dll</HintPath>
-    </Reference>
-    <Reference Include="FrostySdk">
-      <HintPath>..\..\FrostyEditor\FrostySdk.dll</HintPath>
-    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -50,6 +41,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="WindowsBase" />
+    <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="TextureModifierAssetDefinition.cs" />
@@ -67,9 +59,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Shaders\" />
-    <Folder Include="Resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
